@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.8;
 
-abstract contract SimpleStorage {
+contract SimpleStorage {
     uint256 favoriteNumber;
 
     mapping(string => uint256) public nameToFavoriteNumber;
